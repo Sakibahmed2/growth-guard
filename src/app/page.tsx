@@ -1,13 +1,12 @@
 import Banner from "@/components/pages/Home/Banner/Banner";
-import Container from "@/components/ui/Container";
-import { Button } from "@nextui-org/react";
-import React from "react";
+import WhatWeDo from "@/components/pages/Home/WhatWeDo/WhatWeDo";
 
 const HomePage = () => {
   return (
-    <Container>
+    <div>
       <Banner />
-    </Container>
+      <WhatWeDo />
+    </div>
   );
 };
 
