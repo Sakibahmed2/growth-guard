@@ -8,7 +8,7 @@ import Container from "@/components/ui/Container";
 
 const Banner = () => {
   return (
-    <div className="mt-16 md:mt-0 mx-2 md:mx-0 my-10 py-[30px] md:bg-[#262b32] md:clip-polygon-custom md:text-white">
+    <div className="mt-16 md:mt-0 mx-2 md:mx-0 my-10 py-[30px] md:bg-[#262b32] md:clip-polygon-banner md:text-white">
       <Container>
         <div className=" md:flex items-center justify-between md:gap-5">
           <div>

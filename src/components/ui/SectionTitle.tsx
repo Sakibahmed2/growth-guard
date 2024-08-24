@@ -10,7 +10,7 @@ const SectionTitle = ({
   return (
     <div className="w-full  max-w-[800px] ">
       <p className="text-green-600 text-xl font-semibold">- {title}</p>{" "}
-      <p className="text-2xl md:text-4xl font-semibold mt-2 md:mt-4">
+      <p className="text-2xl md:text-4xl font-semibold mt-2 md:mt-3">
         {description}
       </p>
     </div>
